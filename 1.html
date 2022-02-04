@@ -1,0 +1,63 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+      <style>
+          body{
+              background-image:url(bbb.jpeg);
+              height:100%;
+              }
+          th{
+             background-color:#fdfefe65;
+             font-size:50px;
+             border-radius:50px;   
+            }
+          .sex{                      
+               font-size:20px;
+              }
+          input{font-size:25px;}
+          button{
+                  font-size:25px;
+                  background-color:transaparent;
+                  border-radius:25px;
+                 }
+          a{
+            text-decoration:none;
+            color:black;
+           }
+          
+       </style>
+  </head>
+  <body>
+    <center>
+       <table >
+        <tr>
+          <th>
+            <form action="post.php" method="POST">
+              <label for ="nom"> 
+           First Name: </label><li><input type="text" placeholder="FirstName" id="nom" name="FirstName" required> <br></li>
+           Last Name:<li><input type="text"  placeholder="LastName" name="LastName"required><br></li>
+           Adress :<li><input type="text"name="Adress" required><br>
+           Birthday:<li><input type="date" name="Birthday" required><br>
+           Gender: 
+                <div class="sex">
+                    Homme<input type="radio"name="Gender" value="Homme">
+                    Femme<input type="radio"name="Gender" value="Femme">
+                </div>
+           Numero Téléphone:<li><input type="text" placeholder="ex:+216 28 642 656" name="NumeroTélèphone" required><br><br>
+           E-Mail:<li><input type="email" placeholder="ex:nom@gmail.com" name="EMail"required><br>
+           Password:<li><input type="password" name="Password" required><br><br>
+           <input type="submit" value="submit">
+           <center>
+            
+            <button> <a href="1.html">effacer tous</a></button>
+           </center>
+           </form>
+          </th>
+        </tr>
+       </table>
+       
+       
+    </center>
+  </body>
+</html>
